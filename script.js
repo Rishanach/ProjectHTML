@@ -1,44 +1,34 @@
-// list of products
 let myProducts = [
   {
     title: "Headphones",
-    cost: 1500,
-    pic: "https://via.placeholder.com/200x150?text=Headphones"
+    cost: 6500,
+    pic: "hp.jpeg"
   },
   {
     title: "Smart Watch",
-    cost: 2500,
-    pic: "https://via.placeholder.com/200x150?text=Smart+Watch"
+    cost: 8500,
+    pic: "sw.jpeg"
   },
   {
     title: "Speaker",
     cost: 1200,
-    pic: "https://via.placeholder.com/200x150?text=Speaker"
+    pic: "spk.jpeg"
   },
   {
     title: "Charger",
-    cost: 600,
-    pic: "https://via.placeholder.com/200x150?text=Charger"
+    cost: 900,
+    pic: "chrrg.jpeg"
   },
-  {
-    title: "Cable",
-    cost: 200,
-    pic: "https://via.placeholder.com/200x150?text=Cable"
-  },
-  {
-    title: "Laptop Stand",
-    cost: 950,
-    pic: "https://via.placeholder.com/200x150?text=Stand"
-  },
+
   {
     title: "Keyboard",
-    cost: 1100,
-    pic: "https://via.placeholder.com/200x150?text=Keyboard"
+    cost: 4100,
+    pic: "kb.jpeg"
   },
   {
     title: "Mouse",
-    cost: 800,
-    pic: "https://via.placeholder.com/200x150?text=Mouse"
+    cost: 1000,
+    pic: "mou.jpeg"
   }
 ];
 
@@ -60,3 +50,4 @@ for (let i = 0; i < myProducts.length; i++) {
 
   box.appendChild(newCard);
 }
+
